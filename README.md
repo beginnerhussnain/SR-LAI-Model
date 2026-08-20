@@ -1,3 +1,25 @@
+# SR-LAI-Model
+
+This repository contains the work for LAI estimation from multispectral UAV
+imagery using the PROSAIL radiative transfer model.
+
+The original PROSAIL/pyPro4Sail implementation is retained from the
+upstream project by Hector Nieto and contributors.
+
+## Current Work
+
+The `Test 2.0/` directory contains the scripts developed for:
+
+- Loading and validating multispectral UAV imagery
+- Inspecting M3M reflectance values
+- Testing PROSPECT/PROSAIL forward modelling
+- Testing the pyPro4Sail cost functions
+- Single-pixel LAI inversion
+- Initial validation of the inversion workflow
+
+The original UAV field imagery is intentionally not included in this
+repository because it is project/field data.
+
 # pyPro4Sail
 Vectorized vesions of the ProspectD and 4SAIL Radiative Transfer Models for simulating the transmission of radiation in leaves and canopies.
 
