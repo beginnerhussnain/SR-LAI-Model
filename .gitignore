@@ -67,3 +67,6 @@ target/
 
 # Pycharm
 .idea/
+# Real field drone imagery - do not upload
+inputs/M3_MS_Ortho_*.tif
+inputs/M3_MS_Ortho_*.tiff
